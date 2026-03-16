@@ -50,18 +50,15 @@ Le **Dockerfile** permet de :
 Le fichier **docker-compose.yml** permet de construire l'image et de lancer le conteneur en redirigeant le port **8080** de la machine locale vers le port **80** du conteneur.
 
 ## Pipeline CI
-
 Un pipeline d'intégration continue est configuré avec **GitHub Actions**.
-
 Ce pipeline est déclenché automatiquement à chaque **push sur la branche main**.
-
 Les étapes du pipeline sont :
 
 1. Récupération du code du dépôt
 2. Build de l'image Docker
 3. Exécution de tests simulés
 4. Simulation d'une étape de déploiement
-
+   
 ## Difficultés rencontrées
 
 Aucunes.
